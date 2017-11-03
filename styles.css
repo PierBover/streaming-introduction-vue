@@ -1,0 +1,31 @@
+body {
+	margin: 3rem;
+	font-family: sans-serif;
+}
+
+.productos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.producto {
+	border: 1px solid grey;
+	margin: 0 2rem 2rem 0;
+	width: 20rem;
+}
+
+.producto .data {
+	padding: 1rem;
+	background-color: #f0f0f0;
+}
+
+.producto img {
+	height: 10rem;
+	display: block;
+	margin: 1rem auto;
+}
+
+button {
+	font-size: 1rem;
+}
